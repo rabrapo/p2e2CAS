@@ -1,0 +1,58 @@
+25-Apr-2019 16:56:27.641 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.40
+25-Apr-2019 16:56:27.662 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 10 2019 14:31:19 UTC
+25-Apr-2019 16:56:27.663 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.40.0
+25-Apr-2019 16:56:27.663 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+25-Apr-2019 16:56:27.663 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.9.0-8-amd64
+25-Apr-2019 16:56:27.663 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Apr-2019 16:56:27.663 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+25-Apr-2019 16:56:27.664 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_212-8u212-b01-1~deb9u1-b01
+25-Apr-2019 16:56:27.664 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Apr-2019 16:56:27.664 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/APP/apache-tomcat-8.5.40
+25-Apr-2019 16:56:27.664 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/APP/apache-tomcat-8.5.40
+25-Apr-2019 16:56:27.664 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/APP/apache-tomcat-8.5.40/conf/logging.properties
+25-Apr-2019 16:56:27.667 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Apr-2019 16:56:27.667 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-Apr-2019 16:56:27.667 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Apr-2019 16:56:27.667 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+25-Apr-2019 16:56:27.668 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+25-Apr-2019 16:56:27.668 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/APP/apache-tomcat-8.5.40
+25-Apr-2019 16:56:27.668 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/APP/apache-tomcat-8.5.40
+25-Apr-2019 16:56:27.668 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/APP/apache-tomcat-8.5.40/temp
+25-Apr-2019 16:56:27.668 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+25-Apr-2019 16:56:28.019 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Apr-2019 16:56:28.075 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Apr-2019 16:56:28.144 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Apr-2019 16:56:28.149 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Apr-2019 16:56:28.158 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2215 ms
+25-Apr-2019 16:56:28.275 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+25-Apr-2019 16:56:28.276 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.40
+25-Apr-2019 16:56:28.331 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/opt/APP/apache-tomcat-8.5.40/webapps/manager] de la aplicación web
+25-Apr-2019 16:56:29.723 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/APP/apache-tomcat-8.5.40/webapps/manager] has finished in [1.386] ms
+25-Apr-2019 16:56:29.724 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/opt/APP/apache-tomcat-8.5.40/webapps/docs] de la aplicación web
+25-Apr-2019 16:56:29.789 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/APP/apache-tomcat-8.5.40/webapps/docs] has finished in [64] ms
+25-Apr-2019 16:56:29.791 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/opt/APP/apache-tomcat-8.5.40/webapps/host-manager] de la aplicación web
+25-Apr-2019 16:56:29.868 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/APP/apache-tomcat-8.5.40/webapps/host-manager] has finished in [77] ms
+25-Apr-2019 16:56:29.871 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/opt/APP/apache-tomcat-8.5.40/webapps/simplecasclient] de la aplicación web
+25-Apr-2019 16:56:32.932 INFORMACIÓN [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+25-Apr-2019 16:56:37.140 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/APP/apache-tomcat-8.5.40/webapps/simplecasclient] has finished in [7.269] ms
+25-Apr-2019 16:56:37.141 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/opt/APP/apache-tomcat-8.5.40/webapps/ROOT] de la aplicación web
+25-Apr-2019 16:56:37.191 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/APP/apache-tomcat-8.5.40/webapps/ROOT] has finished in [50] ms
+25-Apr-2019 16:56:37.191 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/opt/APP/apache-tomcat-8.5.40/webapps/examples] de la aplicación web
+25-Apr-2019 16:56:38.201 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/APP/apache-tomcat-8.5.40/webapps/examples] has finished in [1.009] ms
+25-Apr-2019 16:56:38.230 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Apr-2019 16:56:38.313 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Apr-2019 16:56:38.392 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 10233 ms
+25-Apr-2019 17:18:28.857 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Falló la recarga del contexto [/simplecasclient]
+25-Apr-2019 17:18:28.859 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/simplecasclient]
+25-Apr-2019 17:18:31.600 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+25-Apr-2019 17:18:33.493 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+25-Apr-2019 17:19:13.514 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/opt/APP/apache-tomcat-8.5.40/webapps/IDwebapp] de la aplicación web
+25-Apr-2019 17:19:13.585 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/APP/apache-tomcat-8.5.40/webapps/IDwebapp] has finished in [71] ms
+25-Apr-2019 18:33:24.154 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+25-Apr-2019 18:33:24.159 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Apr-2019 18:33:24.164 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+25-Apr-2019 18:33:24.166 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+25-Apr-2019 18:33:24.372 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Apr-2019 18:33:24.378 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+25-Apr-2019 18:33:24.389 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Apr-2019 18:33:24.390 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
